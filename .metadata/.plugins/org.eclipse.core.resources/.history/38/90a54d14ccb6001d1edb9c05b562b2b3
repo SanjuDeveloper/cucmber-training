@@ -1,11 +1,11 @@
-package stepDefinations;
+package StepDefination;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
 
-public class stepDefination {
+public class StepDefination {
 
 			
 		    @Given("^User Is On Netbanking Landing Page$")
