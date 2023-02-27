@@ -1,0 +1,12 @@
+package StepDefination;
+
+import io.cucumber.java.en.Given;
+
+public class StepDefination {
+
+	@Given("^User in on Netbanking landing page$")
+	public void function() {
+		
+	}
+	
+}

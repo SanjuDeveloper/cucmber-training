@@ -1,0 +1,7 @@
+Feature: Application Login
+
+Scenario: Home Page Default Login
+Given User in on Netbanking landing page
+When User login into application with userName and password
+Then Homepage is populated
+And Cards are displayed
