@@ -13,7 +13,3 @@ import io.cucumber.junit.CucumberOptions;
 public class TestRunner {
 
 }
-
-//@RunWith =: Ise lgane se hm testRunner file ko run kr skte h.
-// glue =: Stepdefination file ka path
-//features =:Feature file ka path 
