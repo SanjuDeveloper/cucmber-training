@@ -63,3 +63,38 @@ QUESTION:
 ANSWER:
     *> TestNgTestRunner m hme AbstractTestngCucumberTests  extends krna hota h 
     *> Or junit m @RunWith(Cucumber.class)  ka use krte h 
+
+=> Agr hmre 1 feature m same given multiple time h to hm uske liye alag implementation nahi likhte h stepdefination m .
+
+=> Cucumber m agr hme gherkin m multiple argument send krne hote h to hm . Datatable ka use krte h 
+  *> Datatable use krne k liye hm   |   operator ka use krte h . or fir apni stepdefination file m  access krte h 
+  Example:
+  public void login_as_User(Datatable data) {
+
+    List<String, String> obj = data.asLists()
+    obj.get(0).get(1); // datatable ki 0 column  1 row ka data aayega
+  }  
+
+
+=> Agr hme apne test ko multiple set of data k sath run krna h to hm Parameterization ka use krte h .
+=> Jb hm Parameterization ka use krte h to hme Senario ki jgh Senario OutLine likhna hota h
+=> Parameterization k liye hm 1 table bnate h . Example keyword ka use kr k.
+Examples:
+| name | passwors|
+|sanju | 1234    |
+| bhatt| 23de    |
+
+
+=> Agr hme only selected test run krne h to hm , @regassion ya @smoke ese tg lga skte h apne Senario m .
+    *> Fir apne testRunner file m [ tag=@regassion or @smoke ]  ka parameter add kr dete h .
+    *>  [ tag=@regassion or @smoke ] => Mtb jis Senario m ya  @regassion tag ho   ya @smoke  ho . vo run hoga.
+    *>  [ tag=@regassion and @smoke ] => Mtb jis Senario m  @regassion or  @smoke  donu tag honge vo hi run hoga.
+    *> Or ag hm kisi select test ko run ni krna chahte h to. [tag = not @regassion]  iska use kr skte h stepDefination file m 
+    => Kisi 1 Senario m multiple tag bhi add kr skte h apni .feature file m . @regassion  @smoke  ese 
+
+
+
+
+
+
+
