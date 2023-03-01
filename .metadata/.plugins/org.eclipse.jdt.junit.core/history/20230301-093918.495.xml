@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Automation" tests="20" started="20" failures="0" errors="6" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="0.247">
+    <testsuite name="Portal Login" time="0.019">
+      <testsuite name="Home Page Default Login" time="0.019">
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login" time="0.011"/>
+        <testcase name="User login into application with &quot;peter&quot; and &quot;peter@12&quot;" classname="Home Page Default Login" time="0.003"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login" time="0.0"/>
+        <testcase name="Cards displayed &quot;True&quot;" classname="Home Page Default Login" time="0.0"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Application Login" time="0.211">
+      <testsuite name="Home Page Default Login #2" time="0.002">
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login #2" time="0.0"/>
+        <testcase name="User login into application with &quot;admin@example.com&quot; and &quot;admin123&quot;" classname="Home Page Default Login #2" time="0.001"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login #2" time="0.001"/>
+        <testcase name="Cards displayed &quot;Flae&quot;" classname="Home Page Default Login #2" time="0.0"/>
+      </testsuite>
+      <testsuite name="Home Page Default Login #4" time="0.039" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login #4" time="0.001"/>
+        <testcase name="User log in to application with Sanju ji and admin123" classname="Home Page Default Login #4" time="0.001"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login #4" time="0.0"/>
+        <testcase name="Cards are displayed &quot;Yes&quot;" classname="Home Page Default Login #4" time="0.034">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home Page Default Login #5" time="0.005" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login #5" time="0.0"/>
+        <testcase name="User log in to application with bagisto and 1234!@as" classname="Home Page Default Login #5" time="0.001"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login #5" time="0.001"/>
+        <testcase name="Cards are displayed &quot;Yes&quot;" classname="Home Page Default Login #5" time="0.002">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home Page Default Login #6" time="0.012" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login #6" time="0.001"/>
+        <testcase name="User log in to application with Admin and anj@12" classname="Home Page Default Login #6" time="0.001"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login #6" time="0.001"/>
+        <testcase name="Cards are displayed &quot;Yes&quot;" classname="Home Page Default Login #6" time="0.006">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'Cards are displayed "Yes"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Cards are displayed {string}")
+public void cards_are_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

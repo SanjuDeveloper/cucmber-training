@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Automation" tests="60" started="60" failures="0" errors="16" ignored="0">
+  <testsuite name="CucumberOptions.TestRunner" time="0.528">
+    <testsuite name="Portal Login" time="0.423">
+      <testsuite name="Home page default login #1" time="0.048" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #1" time="0.035">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #1" time="0.006">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #1" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login into application with &quot;jin&quot; and password &quot;1234&quot;" classname="Home page default login #1" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #1" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;true&quot;" classname="Home page default login #1" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #2" time="0.01" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #2" time="0.003">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #2" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login into application with &quot;john&quot; and password &quot;4321&quot;" classname="Home page default login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;false&quot;" classname="Home page default login #2" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #3" time="0.055" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #3" time="0.055">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login into application with {string} and password {string}")
+public void user_login_into_application_with_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login into application with &quot;john&quot; and password &quot;4321&quot;" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;false&quot;" classname="Home page default login #3" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #4" time="0.01" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User sign up with following details")
+public void user_sign_up_with_following_details(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #4" time="0.0">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User sign up with following details")
+public void user_sign_up_with_following_details(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #4" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #4" time="0.002">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #4" time="0.002">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User sign up with following details" classname="Home page default login #4" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #4" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;false&quot;" classname="Home page default login #4" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #5" time="0.008" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user1 and password pass1")
+public void user_login_in_to_application_with_user1_and_password_pass1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #5" time="0.003">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user1 and password pass1")
+public void user_login_in_to_application_with_user1_and_password_pass1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #5" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #5" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #5" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login in to application with user1 and password pass1" classname="Home page default login #5" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #5" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;true&quot;" classname="Home page default login #5" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #6" time="0.011" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user2 and password pass2")
+public void user_login_in_to_application_with_user2_and_password_pass2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #6" time="0.002">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user2 and password pass2")
+public void user_login_in_to_application_with_user2_and_password_pass2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #6" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #6" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #6" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login in to application with user2 and password pass2" classname="Home page default login #6" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #6" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;true&quot;" classname="Home page default login #6" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #7" time="0.024" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user3 and password pass3")
+public void user_login_in_to_application_with_user3_and_password_pass3() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #7" time="0.003">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user3 and password pass3")
+public void user_login_in_to_application_with_user3_and_password_pass3() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #7" time="0.006">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #7" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #7" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login in to application with user3 and password pass3" classname="Home page default login #7" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #7" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;true&quot;" classname="Home page default login #7" time="0.003">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+      <testsuite name="Home page default login #8" time="0.01" incomplete="true">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user4 and password pass4")
+public void user_login_in_to_application_with_user4_and_password_pass4() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        <testcase name="validate the browser" classname="Home page default login #8" time="0.003">
+          <error>io.cucumber.junit.UndefinedStepException: The step 'validate the browser' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("validate the browser")
+public void validate_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Browser is triggered")
+public void browser_is_triggered() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check if browser is started")
+public void check_if_browser_is_started() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on NetBanking landing page")
+public void user_is_on_net_banking_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User login in to application with user4 and password pass4")
+public void user_login_in_to_application_with_user4_and_password_pass4() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home page is populated")
+public void home_page_is_populated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Cards displayed are {string}")
+public void cards_displayed_are(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Browser is triggered" classname="Home page default login #8" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="check if browser is started" classname="Home page default login #8" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User is on NetBanking landing page" classname="Home page default login #8" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="User login in to application with user4 and password pass4" classname="Home page default login #8" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Home page is populated" classname="Home page default login #8" time="0.001">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+        <testcase name="Cards displayed are &quot;true&quot;" classname="Home page default login #8" time="0.0">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Application Login" time="0.046">
+      <testsuite name="Home Page Default Login" time="0.046">
+        <testcase name="User Is On Netbanking Landing Page" classname="Home Page Default Login" time="0.005"/>
+        <testcase name="User login into application with &quot;sanjau&quot; and &quot;admin123&quot;" classname="Home Page Default Login" time="0.001"/>
+        <testcase name="Homepage is populated" classname="Home Page Default Login" time="0.0"/>
+        <testcase name="Cards are displayed" classname="Home Page Default Login" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
