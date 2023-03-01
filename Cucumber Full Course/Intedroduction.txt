@@ -93,8 +93,20 @@ Examples:
     => Kisi 1 Senario m multiple tag bhi add kr skte h apni .feature file m . @regassion  @smoke  ese 
 
 
+QUESTION:
+    WHAT IS BACKGROUND KEYWORD:
 
-
+ANSWER:
+    BACKGROUND mtlb ki pre condition. jese hme sare test case sephle browser open krna h 
+    ya driver initialize krna h. to hm use Background: m dal denge.
+    1 Background keyword 1 hi feature file k liye kaam krta h .
+    
+    Background:
+        Given someting
+        When someting on when
+        Then someting in then
+*> Agr sare senario k liye alag alag pre condition h to us case m Background keyword kaam ni krta h .
+*> Jb sare test case [senario] k liye same prerequest hogi tb Backgroud keywword kaam krta h.
 
 
 
