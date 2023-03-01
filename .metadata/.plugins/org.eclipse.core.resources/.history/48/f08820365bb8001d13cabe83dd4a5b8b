@@ -53,20 +53,5 @@ public class stepDefination<Datatable> {
 				// isi liye hm function m @Given,when and then ka use krte h .
 				// is se compiler easily identify kr leta h ki knsa test execute krna h
 			}
-		    
-		    @Given("^Validate browser$")
-		    public void validate_browser() throws Throwable {
-		    	System.out.println("validate_browser");
-		    }
-
-		    @When("^Browser is triggered$")
-		    public void browser_is_triggered() throws Throwable {
-		    	System.out.println("browser_is_triggered");
-		    }
-
-		    @Then("^Check if browser is opened$")
-		    public void check_if_browser_is_opened() throws Throwable {
-		    	 System.out.println("check_if_browser_is_opened");
-		    }
 	
 }
