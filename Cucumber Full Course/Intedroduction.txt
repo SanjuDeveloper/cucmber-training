@@ -135,9 +135,8 @@ Question:
     WHAT IS Dryrun = true ?
 
 ANSWER:
-    *> ye codeko execute nahi krega. only check krega ki every senario k liye stepdefination m implementation h ya ni.
-    *> Agr koi issue hoga to console m show hoga. 
-    *> Or sab theek hoga to ye console m show krega. but code execute ni hoga.
+ *> Ye code ko compile krta h. run nahi krta h .
+ *> Agr koi issue hoga to console m show hoga. 
 
 QUESTION:
     WHAT IS monochrome=true ?
@@ -190,8 +189,18 @@ QUESTION:
 ANSWER:
     hm jo bhi artifact id select krte h maven hme usi type ka project skleton[Structor]. ready kr k deta h .
 
+QUESTION:
+    WHAT IS DEPENDANCY INJECTION IN CUCMBER?
+
+ANSWER:
     
+    jb hm apni stepDefination file ko multiple files m break krte h to us time variables and object ko a page
+    se dusre page m transfer krne k liye iska use krte h . like driver initialize 1 file m h . to driver ko dusri file m bhi access kr skte h .
+    PicoContainer  1  dependancyInjection h jo hm cucumber m use krte h .
 
+    *> Agr kisi variable ya object ka initialize ni hua h or hm use use kr re h to tb . NullPointer exception aati h.
 
-
-
+    -> Iske liye hm jo jo common varialbes hote h unh 1 alag class m define kr dete h .
+    -> Fir ji feature file m un varialbes ko values assign hori hoti h . vha p 1 constructor bna lete h.
+    -> constructor m us java class ka instance variable pass kr dete h. or varualbe ko value assign kr dete h .
+    -> Fir sari stepdefination files m usi class k instance se vrialbes ko call krte h .
