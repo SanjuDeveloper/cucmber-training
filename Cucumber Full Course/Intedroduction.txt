@@ -109,4 +109,89 @@ ANSWER:
 *> Jb sare test case [senario] k liye same prerequest hogi tb Backgroud keywword kaam krta h.
 
 
+QUESTION:
+    What are HOOKS in CUCUMBER ?
+
+ANSWER:
+    Agr hme koi test kisi senario se phle ya bad m  run krna h to hm stepDefination File k function m  hook ka use krte h .[ @Before("SenarioTagName")]
+    Sare senario m kiye same hooks ni ho skte h . kyu ki hme hooks m senario ka name dena hota h (@Before("SenarioTagName"));
+    Hooks  and Background sath m kaam ni krte h . kyu ki background sare senario k liye same hota h or hooks nahi.
+    Agr hmre pass sare senario k liye alag alag pre and post condition h to hooks ka use krte h .
+    Or agr sare senario k liye same pre/post condition h to Background ka use kr lete h .
+
+  -> Hooks m hme senario ka tagName pass krte h.Agr tagName pass ni krenge to ye sare test se phle  run hoga.
+  -> Mtlb Background ki trh kaam krega.
+
+QUESTION:
+    How can generate reports in cucumber ?
+
+ANSWER:
+    testRunner file m . CucumberOption = (plugin ={"pretty",html:taget/cucumber.html}); iska use krte h ;
+    *>pretty -> color provide krega  mtlb fail k liye red pass k liye green
+    *> HTML:target/cucumber.html  -> target file k ander cucumber namese html file bnegi. us m report hogi .
+    *> Hm json or XML format m bhi report bna skte h uske liye : json:cucumber/report.json .  ye use krna hoga. plugin m.
+
+Question:
+    WHAT IS Dryrun = true ?
+
+ANSWER:
+    *> ye codeko execute nahi krega. only check krega ki every senario k liye stepdefination m implementation h ya ni.
+    *> Agr koi issue hoga to console m show hoga. 
+    *> Or sab theek hoga to ye console m show krega. but code execute ni hoga.
+
+QUESTION:
+    WHAT IS monochrome=true ?
+
+ANSWER:
+    Mtlb ki hme test ka ouotput console m readable form m show hoga.
+
+
+QUESTION:
+    HOW CAN WRITE RESUABLE CODE IN CUCMBER ?
+
+ANSWER:
+    agr hmare pass @GIVEN: @WHEN:  and @THEN: sare senario k liye same h to hm
+    sare senario k liye 1 alag alag implementation nahi krte h stepdefination file m.
+    Like : 2  senario ka @GIVEN same h to hm feature file m 1 hi implementation krenge donu ka.
+    Ike liye hm regular expression ka use krna hota h
+
+QUESTION:
+    How can drive data in testcase in cucmber:
+
+ANSWER:
+    By using datatable : [ agr 1 test case k liye multiple parameter send krne h to tb datablae ka use krte h ]
+    Like:   When User sign up with following details
+            | jenny | abcd | john@abcd.com |Australia | 3242353|
+
+
+QUESTION:
+    HOW CAN ACHIVE Parameterization IN CUCMBER:
+
+ANSWER:
+    By using senarioOutline. [ iske liye Example keyword ka use krte h ]
+
+QUESTION:
+    HOW CAN YOU ACHIVE  100% test coverage in cucumber framework ?
+
+
+ANSWER:
+    By using Cucumer-Ghrkin. [mtlb sare senario k liye stepDefination m implimention honi chahiye. ni to error dega.]
+
+QUESTION:
+    HOW CAN Saperate the commom PRE and POST  condition in CUCUMBER ?
+
+ANSWER:
+    By using. HOOOKS, BACKGROUD  and TAGS .
+
+
+QUESTION:
+    WHAT IS artifact IDin cucumber ?
+
+ANSWER:
+    hm jo bhi artifact id select krte h maven hme usi type ka project skleton[Structor]. ready kr k deta h .
+
+    
+
+
+
 
