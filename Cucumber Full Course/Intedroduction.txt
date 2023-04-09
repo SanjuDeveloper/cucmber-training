@@ -204,3 +204,11 @@ ANSWER:
     -> Fir ji feature file m un varialbes ko values assign hori hoti h . vha p 1 constructor bna lete h.
     -> constructor m us java class ka instance variable pass kr dete h. or varualbe ko value assign kr dete h .
     -> Fir sari stepdefination files m usi class k instance se vrialbes ko call krte h .
+
+========================= [FRAMEWOR ] ====================
+
+*> Frmaework m hm 1 1 PageObjects ka package bna lete h .
+*> Us m 1 pageObjectsManager clas bna skte h jis k ander sari stepdefination files k object retun honge.
+*> Or BaseTest k ander common code hota h . like browser initialize and other.
+*> And utils packages k ander reuseable code likh akte h . like window handle etc..
+
