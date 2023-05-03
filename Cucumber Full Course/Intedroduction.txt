@@ -212,3 +212,62 @@ ANSWER:
 *> Or BaseTest k ander common code hota h . like browser initialize and other.
 *> And utils packages k ander reuseable code likh akte h . like window handle etc..
 
+**> HOW CAN RUN TEST PARALLEL IN CUCUMBER ?
+    *> iske liye hme apni testRunner file m  senarios name se 1 function bnana hota h.
+    Jo ki AbstractTestngCucumberTests class m define hota h . or hm is apni file m override krte h .
+    Uske bad is function k upar @DataProvideo(parallel=true)   ye add krna hota h.
+    ye code likhna hota h function k ander //return super.senarios(); 
+
+
+
+QUESTION:
+     What is loosely coupled and tightly coupled in cucumber java ?
+
+ANSWER:
+   *>  Agr hm kisi class "A" m changes kr re h
+       too hme class A k changes ki vjh se class "B"  ya a se related jitni class h un sab m change krna hota h
+       is loosly coupled khte h
+
+    *> tightly coupled m wsa ni hota h . us hm common code 1 jgh likhte h . 
+    or kisi bhi single class m changes krne se us se related class m changes ni krne padhte h .
+
+    *> Jese hm driver object bnate h to use 1 comman class m bna lenge. or use kisi bhi class m call kr skte h.
+    Hme sari class m changes ni krne padhte h ya sari class m driver initialize ni krna hota h . functions ko call krne k liye.
+
+
+QUESTIONS:
+
+    HOW CAN RUN TESTCASE PARALLEL IN CUCUMBER TESTNG ?
+
+ANSWER:
+
+    *> iske liye hm test runner class m senario method ko call krnete h . or method k upaar @DataProvideor(parallel=true). krna hota h .
+    *> senario method AbstractTestngCucumberTests  class m define hota h .
+
+
+QUESTIONS:
+    HOW can create extends report in cucumber ?
+
+ANSWER:
+    *> iske liye hme extendSparkRepoter  or ExtentCucumberAdapter  plugin ka use krna hota h . pom.xml m 
+    >  or  .properties name se 1 file bnate h reources folder k ander. is file m folder name of file name dena hota h .
+    *> Or automatic report generate ho jati h. jo hmne file name diya h usi file name se report bnaegi. 
+
+
+=> Cucumber m screenshot lene k liye hme "apachecommon.io"  DEPENDANCY ka use krte h. screenshot file ko byte format m change krne k liye. .
+   *> kyu ki cucmber m senario name ki class hoti h uske sath hm screenshot k sath attach krte h. Or vo byte format m file accept krti h .
+   *> "scenario.attach()"  is function se file attach hoti h scenario k sath.
+
+QUESTION:
+    HOW CAN WE RUN FAIED TEST IN CUCUMBER ?
+
+ANSWER:
+    iske liye hm TestNgTestRunner class m rerun plugin ka usse krte h . CucumberOption k ander.  
+    Ye 1 text file create krta h us file m sare failed scenario hote h. is text fileka path m rerun plug m dete h  TestNgTestRunner file m hi.
+    Fir hm 1 new testrunner file bnate h us file m is text file ka path dete h .
+    Or jb is new testrunner file ko run krenge to only fail scenario. Run honge
+
+
+=> Agr hm kisi specific test ko run krna chahte h .To hme terminal m. [ mvn test -Dcucumber.filter.target="@PlaceOrder" ] 
+    @PlaceOrder  tag ka name h 
+
