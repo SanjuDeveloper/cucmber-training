@@ -181,3 +181,284 @@ ANSWER:
         It is done by pico-container.
         
         What is single responsibility Principle and loosely coupled classes?
+
+
+======================================================  OTHER NOTES ===================================================================
+
+
+
+
+=============================[09-FEB2023] ========================
+Question:
+    Which framework you are using ?
+
+ANSWER: 
+    TestNg.
+    
+QUESTION:
+    WHAT IS BDD ?
+
+ANSWER:
+     Behaviour-Driven Development (BDD) is a Development apporach. it a enhanced comunication between texh and 
+     Non-tech team. Because we are creating a common document in ghrkin language for all teams.[dev,qa,bde].
+
+QUESTION:
+    WHAT IS CUCUMBER?
+
+ANSWER:
+    CUCUMBER  is a framework that support the Behaviour-Driven Development (BDD). 
+
+question:
+    What is GHERKIN ?
+
+ANSWER:
+    GHERKIN  1 language hoti h , ya 1 format hota h software k Behaviour ko define krne ka /.
+
+
+QUESTION;
+    WHAT IS FEATURE FILE ?
+
+ANSWER:
+    FEATURE FILE IS  JUST LIKE A TEST SUIT. IT CONTAINS MULTIPLE SENARIO /
+
+QUESTION :
+    ARCHITURE ?  HOW CUCUMBER WORKS IN BACKGROUND ?
+
+ANSWER:
+    Jb CUCUMBER test run hota h to vo vo given ,when and then ko find krta h fir in keywords ko stepDefination
+    filse m search krta h . fir test ko run krta h .
+
+
+NOTE: Tidy Gherkin  Chrome ka extension h . is se stepdefination file generate kr skte h. [ VIDEO NO. 12]
+
+=> Hme .feature file m jo bhi keywords use kiye hote h . vo sab stepdefination file m bhi use krne hote h 
+  function k sath @Given   is trh se.  @Given ,@When,@Then ye sab function k sath use krne hote h. tabhi 
+  stepdefination file ka code execute hota h .
+
+Example :
+
+    @Given("^ goto login page$")
+    public function loginUser() {
+
+    }
+
+=> There should be one mapping line for each gherkin line.
+  [ Mtlb ki  @given k liye multiple function ni ho skte h ..feature file ka Given keywords stepdefination 
+    k @given se map rhta h to 1 given k liye 1 hi  @Given hoga
+    ]
+
+QUESTION:
+    WHAT IS DIFFERENCE BETWEEN JUNITTESTRUNNER AND TENTNGTESTRUNNER ?
+
+ANSWER:
+    *> TestNgTestRunner m hme AbstractTestngCucumberTests  extends krna hota h 
+    *> Or junit m @RunWith(Cucumber.class)  ka use krte h 
+
+=> Agr hmre 1 feature m same given multiple time h to hm uske liye alag implementation nahi likhte h stepdefination m .
+
+=> Cucumber m agr hme gherkin m multiple argument send krne hote h to hm . Datatable ka use krte h 
+  *> Datatable use krne k liye hm   |   operator ka use krte h . or fir apni stepdefination file m  access krte h 
+  Example:
+  public void login_as_User(Datatable data) {
+
+    List<String, String> obj = data.asLists()
+    obj.get(0).get(1); // datatable ki 0 column  1 row ka data aayega
+  }  
+
+
+=> Agr hme apne test ko multiple set of data k sath run krna h to hm Parameterization ka use krte h .
+=> Jb hm Parameterization ka use krte h to hme Senario ki jgh Senario OutLine likhna hota h
+=> Parameterization k liye hm 1 table bnate h . Example keyword ka use kr k.
+Examples:
+| name | passwors|
+|sanju | 1234    |
+| bhatt| 23de    |
+
+
+=> Agr hme only selected test run krne h to hm , @regassion ya @smoke ese tg lga skte h apne Senario m .
+    *> Fir apne testRunner file m [ tag=@regassion or @smoke ]  ka parameter add kr dete h .
+    *>  [ tag=@regassion or @smoke ] => Mtb jis Senario m ya  @regassion tag ho   ya @smoke  ho . vo run hoga.
+    *>  [ tag=@regassion and @smoke ] => Mtb jis Senario m  @regassion or  @smoke  donu tag honge vo hi run hoga.
+    *> Or ag hm kisi select test ko run ni krna chahte h to. [tag = not @regassion]  iska use kr skte h stepDefination file m 
+    => Kisi 1 Senario m multiple tag bhi add kr skte h apni .feature file m . @regassion  @smoke  ese 
+
+
+QUESTION:
+    WHAT IS BACKGROUND KEYWORD:
+
+ANSWER:
+    BACKGROUND mtlb ki pre condition. jese hme sare test case sephle browser open krna h 
+    ya driver initialize krna h. to hm use Background: m dal denge.
+    1 Background keyword 1 hi feature file k liye kaam krta h .
+    
+    Background:
+        Given someting
+        When someting on when
+        Then someting in then
+*> Agr sare senario k liye alag alag pre condition h to us case m Background keyword kaam ni krta h .
+*> Jb sare test case [senario] k liye same prerequest hogi tb Backgroud keywword kaam krta h.
+
+
+QUESTION:
+    What are HOOKS in CUCUMBER ?
+
+ANSWER:
+    Agr hme koi test kisi senario se phle ya bad m  run krna h to hm stepDefination File k function m  hook ka use krte h .[ @Before("SenarioTagName")]
+    Sare senario m kiye same hooks ni ho skte h . kyu ki hme hooks m senario ka name dena hota h (@Before("SenarioTagName"));
+    Hooks  and Background sath m kaam ni krte h . kyu ki background sare senario k liye same hota h or hooks nahi.
+    Agr hmre pass sare senario k liye alag alag pre and post condition h to hooks ka use krte h .
+    Or agr sare senario k liye same pre/post condition h to Background ka use kr lete h .
+
+  -> Hooks m hme senario ka tagName pass krte h.Agr tagName pass ni krenge to ye sare test se phle  run hoga.
+  -> Mtlb Background ki trh kaam krega.
+
+QUESTION:
+    How can generate reports in cucumber ?
+
+ANSWER:
+    testRunner file m . CucumberOption = (plugin ={"pretty",html:taget/cucumber.html}); iska use krte h ;
+    *>pretty -> color provide krega  mtlb fail k liye red pass k liye green
+    *> HTML:target/cucumber.html  -> target file k ander cucumber namese html file bnegi. us m report hogi .
+    *> Hm json or XML format m bhi report bna skte h uske liye : json:cucumber/report.json .  ye use krna hoga. plugin m.
+
+Question:
+    WHAT IS Dryrun = true ?
+
+ANSWER:
+ *> Ye code ko compile krta h. run nahi krta h .
+ *> Agr koi issue hoga to console m show hoga. 
+
+QUESTION:
+    WHAT IS monochrome=true ?
+
+ANSWER:
+    Mtlb ki hme test ka ouotput console m readable form m show hoga.
+
+
+QUESTION:
+    HOW CAN WRITE RESUABLE CODE IN CUCMBER ?
+
+ANSWER:
+    agr hmare pass @GIVEN: @WHEN:  and @THEN: sare senario k liye same h to hm
+    sare senario k liye 1 alag alag implementation nahi krte h stepdefination file m.
+    Like : 2  senario ka @GIVEN same h to hm feature file m 1 hi implementation krenge donu ka.
+    Ike liye hm regular expression ka use krna hota h
+
+QUESTION:
+    How can drive data in testcase in cucmber:
+
+ANSWER:
+    By using datatable : [ agr 1 test case k liye multiple parameter send krne h to tb datablae ka use krte h ]
+    Like:   When User sign up with following details
+            | jenny | abcd | john@abcd.com |Australia | 3242353|
+
+
+QUESTION:
+    HOW CAN ACHIVE Parameterization IN CUCMBER:
+
+ANSWER:
+    By using senarioOutline. [ iske liye Example keyword ka use krte h ]
+
+QUESTION:
+    HOW CAN YOU ACHIVE  100% test coverage in cucumber framework ?
+
+
+ANSWER:
+    By using Cucumer-Ghrkin. [mtlb sare senario k liye stepDefination m implimention honi chahiye. ni to error dega.]
+
+QUESTION:
+    HOW CAN Saperate the commom PRE and POST  condition in CUCUMBER ?
+
+ANSWER:
+    By using. HOOOKS, BACKGROUD  and TAGS .
+
+
+QUESTION:
+    WHAT IS artifact IDin cucumber ?
+
+ANSWER:
+    hm jo bhi artifact id select krte h maven hme usi type ka project skleton[Structor]. ready kr k deta h .
+
+QUESTION:
+    WHAT IS DEPENDANCY INJECTION IN CUCMBER?
+
+ANSWER:
+    
+    jb hm apni stepDefination file ko multiple files m break krte h to us time variables and object ko a page
+    se dusre page m transfer krne k liye iska use krte h . like driver initialize 1 file m h . to driver ko dusri file m bhi access kr skte h .
+    PicoContainer  1  dependancyInjection h jo hm cucumber m use krte h .
+
+    *> Agr kisi variable ya object ka initialize ni hua h or hm use use kr re h to tb . NullPointer exception aati h.
+
+    -> Iske liye hm jo jo common varialbes hote h unh 1 alag class m define kr dete h .
+    -> Fir ji feature file m un varialbes ko values assign hori hoti h . vha p 1 constructor bna lete h.
+    -> constructor m us java class ka instance variable pass kr dete h. or varualbe ko value assign kr dete h .
+    -> Fir sari stepdefination files m usi class k instance se vrialbes ko call krte h .
+
+========================= [FRAMEWOR ] ====================
+
+*> Frmaework m hm 1 1 PageObjects ka package bna lete h .
+*> Us m 1 pageObjectsManager clas bna skte h jis k ander sari stepdefination files k object retun honge.
+*> Or BaseTest k ander common code hota h . like browser initialize and other.
+*> And utils packages k ander reuseable code likh akte h . like window handle etc..
+
+**> HOW CAN RUN TEST PARALLEL IN CUCUMBER ?
+    *> iske liye hme apni testRunner file m  senarios name se 1 function bnana hota h.
+    Jo ki AbstractTestngCucumberTests class m define hota h . or hm is apni file m override krte h .
+    Uske bad is function k upar @DataProvideo(parallel=true)   ye add krna hota h.
+    ye code likhna hota h function k ander //return super.senarios(); 
+
+
+
+QUESTION:
+     What is loosely coupled and tightly coupled in cucumber java ?
+
+ANSWER:
+   *>  Agr hm kisi class "A" m changes kr re h
+       too hme class A k changes ki vjh se class "B"  ya a se related jitni class h un sab m change krna hota h
+       is loosly coupled khte h
+
+    *> tightly coupled m wsa ni hota h . us hm common code 1 jgh likhte h . 
+    or kisi bhi single class m changes krne se us se related class m changes ni krne padhte h .
+
+    *> Jese hm driver object bnate h to use 1 comman class m bna lenge. or use kisi bhi class m call kr skte h.
+    Hme sari class m changes ni krne padhte h ya sari class m driver initialize ni krna hota h . functions ko call krne k liye.
+
+
+QUESTIONS:
+
+    HOW CAN RUN TESTCASE PARALLEL IN CUCUMBER TESTNG ?
+
+ANSWER:
+
+    *> iske liye hm test runner class m senario method ko call krnete h . or method k upaar @DataProvideor(parallel=true). krna hota h .
+    *> senario method AbstractTestngCucumberTests  class m define hota h .
+
+
+QUESTIONS:
+    HOW can create extends report in cucumber ?
+
+ANSWER:
+    *> iske liye hme extendSparkRepoter  or ExtentCucumberAdapter  plugin ka use krna hota h . pom.xml m 
+    >  or  .properties name se 1 file bnate h reources folder k ander. is file m folder name of file name dena hota h .
+    *> Or automatic report generate ho jati h. jo hmne file name diya h usi file name se report bnaegi. 
+
+
+=> Cucumber m screenshot lene k liye hme "apachecommon.io"  DEPENDANCY ka use krte h. screenshot file ko byte format m change krne k liye. .
+   *> kyu ki cucmber m senario name ki class hoti h uske sath hm screenshot k sath attach krte h. Or vo byte format m file accept krti h .
+   *> "scenario.attach()"  is function se file attach hoti h scenario k sath.
+
+QUESTION:
+    HOW CAN WE RUN FAIED TEST IN CUCUMBER ?
+
+ANSWER:
+    iske liye hm TestNgTestRunner class m rerun plugin ka usse krte h . CucumberOption k ander.  
+    Ye 1 text file create krta h us file m sare failed scenario hote h. is text fileka path m rerun plug m dete h  TestNgTestRunner file m hi.
+    Fir hm 1 new testrunner file bnate h us file m is text file ka path dete h .
+    Or jb is new testrunner file ko run krenge to only fail scenario. Run honge
+
+
+=> Agr hm kisi specific test ko run krna chahte h .To hme terminal m. [ mvn test -Dcucumber.filter.target="@PlaceOrder" ] 
+    @PlaceOrder  tag ka name h 
+
+

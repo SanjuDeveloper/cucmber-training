@@ -1,7 +1,0 @@
-Feature: Portal Login
-@smoke
-Scenario: Home Page Default Login
-Given User Is On Netbanking Landing Page
-When User login into application with "sanjau" and "admin123"
-Then Homepage is populated
-And Cards displayed "True"

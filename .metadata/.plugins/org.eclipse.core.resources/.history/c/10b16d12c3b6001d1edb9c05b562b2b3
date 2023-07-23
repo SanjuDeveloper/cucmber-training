@@ -1,7 +1,0 @@
-Feature: Application Login
-
-Scenario: Homepage Default Login
-Given User in on login page
-When User login into application with userName and password
-Then Homepage is populated
-And Cards are displayed
